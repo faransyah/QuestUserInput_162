@@ -85,7 +85,7 @@ fun LatihanInputt(modifier: Modifier = Modifier){
             placeholder = {
                 Text("Masukkan Email Anda")
             },
-            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number )
+            keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Email )
 
         )
         TextField(
